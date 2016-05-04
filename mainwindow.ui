@@ -348,13 +348,19 @@
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionView_Proverbs">
+   <property name="icon">
+    <iconset theme="document-open"/>
+   </property>
    <property name="text">
     <string>View All Proverbs</string>
    </property>
   </action>
   <action name="actionAdd_Proverbs">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="icon">
-    <iconset theme="add"/>
+    <iconset theme="list-add"/>
    </property>
    <property name="text">
     <string>Add Proverbs</string>
@@ -362,7 +368,7 @@
   </action>
   <action name="actionRemove_Proverbs">
    <property name="icon">
-    <iconset theme="remove"/>
+    <iconset theme="list-remove"/>
    </property>
    <property name="text">
     <string>Remove Proverbs</string>
@@ -370,7 +376,7 @@
   </action>
   <action name="actionQuit">
    <property name="icon">
-    <iconset theme="exit"/>
+    <iconset theme="application-exit"/>
    </property>
    <property name="text">
     <string>Quit</string>
@@ -385,6 +391,9 @@
    </property>
   </action>
   <action name="actionAbout">
+   <property name="icon">
+    <iconset theme="help-about"/>
+   </property>
    <property name="text">
     <string>About</string>
    </property>
