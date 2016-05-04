@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>AppIcon.png</file>
+        <file>hint.png</file>
+        <file>reset.png</file>
+        <file>check.png</file>
+        <file>proverbs.txt</file>
+    </qresource>
+</RCC>
