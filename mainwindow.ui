@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>481</width>
-    <height>577</height>
+    <height>677</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -314,9 +314,29 @@
      <x>0</x>
      <y>0</y>
      <width>481</width>
-     <height>22</height>
+     <height>27</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionView_Proverbs"/>
+    <addaction name="separator"/>
+    <addaction name="actionAdd_Proverbs"/>
+    <addaction name="actionRemove_Proverbs"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelo">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionHow_to"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuHelo"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -327,6 +347,48 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionView_Proverbs">
+   <property name="text">
+    <string>View All Proverbs</string>
+   </property>
+  </action>
+  <action name="actionAdd_Proverbs">
+   <property name="icon">
+    <iconset theme="add"/>
+   </property>
+   <property name="text">
+    <string>Add Proverbs</string>
+   </property>
+  </action>
+  <action name="actionRemove_Proverbs">
+   <property name="icon">
+    <iconset theme="remove"/>
+   </property>
+   <property name="text">
+    <string>Remove Proverbs</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset theme="exit"/>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionHow_to">
+   <property name="text">
+    <string>How to</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
